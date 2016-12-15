@@ -18,6 +18,14 @@
 			<key>name</key>
 			<string>keyword.other.korean</string>
 		</dict>
+		<dict>
+			<key>comment</key>
+			<string>emphasise sentence transitions (sentence-counting )</string>
+			<key>match</key>
+			<string>(?:^|(?:[.!?]\s))(\p{Hangul}+)</string>
+			<key>name</key>
+			<string>constant.numeric.korean</string>
+		</dict>
 	</array>
 	<key>scopeName</key>
 	<string>text.korean</string>

@@ -9,4 +9,8 @@ patterns:
 - comment: 은/는 particle
   name: keyword.other.korean
   match: (?:은|는)\s\b
+
+- comment: emphasise sentence transitions (sentence-counting )
+  name: constant.numeric.korean
+  match: (?:^|(?:[.!?]\s))(\p{Hangul}+)
 ...
