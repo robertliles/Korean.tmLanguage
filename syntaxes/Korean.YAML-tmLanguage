@@ -1,0 +1,12 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+---
+name: Korean
+scopeName: text.korean
+fileTypes: [hgl]
+uuid: b6745719-be67-44bf-9434-37bdac48e193
+
+patterns:
+- comment: 은/는 particle
+  name: keyword.other.korean
+  match: (?:은|는)\s\b
+...

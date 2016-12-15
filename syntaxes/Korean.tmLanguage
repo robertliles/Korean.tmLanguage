@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>hgl</string>
+	</array>
+	<key>name</key>
+	<string>Korean2</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>comment</key>
+			<string>은/는 particle</string>
+			<key>match</key>
+			<string>(?:은|는)\s\b</string>
+			<key>name</key>
+			<string>keyword.other.korean</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>은/는 particle</string>
+			<key>match</key>
+			<string>/[c,d]\s*</string>
+			<key>name</key>
+			<string>keyword.other.korean</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>test</string>
+			<key>match</key>
+			<string>우리</string>
+			<key>name</key>
+			<string>keyword.other.korean</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>text.korean</string>
+	<key>uuid</key>
+	<string>b6745719-be67-44bf-9434-37bdac48e193</string>
+</dict>
+</plist>
