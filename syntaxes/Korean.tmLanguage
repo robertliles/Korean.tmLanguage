@@ -7,7 +7,7 @@
 		<string>hgl</string>
 	</array>
 	<key>name</key>
-	<string>Korean2</string>
+	<string>Korean</string>
 	<key>patterns</key>
 	<array>
 		<dict>
@@ -15,22 +15,6 @@
 			<string>은/는 particle</string>
 			<key>match</key>
 			<string>(?:은|는)\s\b</string>
-			<key>name</key>
-			<string>keyword.other.korean</string>
-		</dict>
-		<dict>
-			<key>comment</key>
-			<string>은/는 particle</string>
-			<key>match</key>
-			<string>/[c,d]\s*</string>
-			<key>name</key>
-			<string>keyword.other.korean</string>
-		</dict>
-		<dict>
-			<key>comment</key>
-			<string>test</string>
-			<key>match</key>
-			<string>우리</string>
 			<key>name</key>
 			<string>keyword.other.korean</string>
 		</dict>
