@@ -6,7 +6,7 @@ fileTypes: [hgl]
 uuid: b6745719-be67-44bf-9434-37bdac48e193
 
 patterns:
-# TODO recursive rule for this to preserve inner highlights?
+# TODO recursive rule for this to preserve inner highlights? include single quotes too
 - comment: quoted strings
   name: string.quoted.other.korean
   match: \"(?:\\.|[^"\\])*\"
@@ -21,5 +21,5 @@ patterns:
 
 - comment: subject (-가/이) and direct object (을/를) particles highlighted in same color
   name: variable.parameter.other.korean
-  match: (?:가|이|을|)\s\b
+  match: (?:가|이|을|를)\s\b
 ...

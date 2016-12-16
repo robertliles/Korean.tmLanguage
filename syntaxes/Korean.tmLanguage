@@ -38,7 +38,7 @@
 			<key>comment</key>
 			<string>subject (-가/이) and direct object (을/를) particles highlighted in same color</string>
 			<key>match</key>
-			<string>(?:가|이|을|)\s\b</string>
+			<string>(?:가|이|을|를)\s\b</string>
 			<key>name</key>
 			<string>variable.parameter.other.korean</string>
 		</dict>
