@@ -12,11 +12,11 @@
 	<array>
 		<dict>
 			<key>comment</key>
-			<string>은/는 particle</string>
+			<string>quoted strings</string>
 			<key>match</key>
-			<string>(?:은|는)\s\b</string>
+			<string>\"(?:\\.|[^"\\])*\"</string>
 			<key>name</key>
-			<string>keyword.other.korean</string>
+			<string>string.quoted.other.korean</string>
 		</dict>
 		<dict>
 			<key>comment</key>
@@ -25,6 +25,22 @@
 			<string>(?:^|(?:[.!?]\s))(\p{Hangul}+)</string>
 			<key>name</key>
 			<string>constant.numeric.korean</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>은/는 particle</string>
+			<key>match</key>
+			<string>(?:은|는)\s\b</string>
+			<key>name</key>
+			<string>keyword.other.korean</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>subject (-가/이) and direct object (을/를) particles highlighted in same color</string>
+			<key>match</key>
+			<string>(?:가|이|을|)\s\b</string>
+			<key>name</key>
+			<string>variable.parameter.other.korean</string>
 		</dict>
 	</array>
 	<key>scopeName</key>
