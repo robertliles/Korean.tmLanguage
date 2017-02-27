@@ -13,7 +13,7 @@ patterns:
 
 - comment: emphasise sentence transitions (sentence-counting )
   name: constant.numeric.korean
-  match: (?:^|(?:[.!?]\s))(\p{Hangul}+)
+  match: (?:^|(?:[.!?]\s))((\p{Hangul}|<|")+)
 
 - comment: 은/는 particle
   name: keyword.other.korean
